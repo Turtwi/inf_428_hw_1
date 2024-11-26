@@ -3,4 +3,5 @@ class Solution:
         nums1 = set(nums1)
         nums2 = set(nums2)
         nums1 = nums1.intersection(nums2)
+
         return list(nums1)
